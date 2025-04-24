@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="healthcare, stablecoin, government tokens, medical cryptocurrency" />
+  <meta name="description" content="Explore government healthcare token services including wallet access, secure storage, and 24/7 support." />
+  <meta name="author" content="US Healthcare Dev Team" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+  <title>US Healthcare Services</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="Healthcare background">
+      </div>
+    </div>
+
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>US Healthcare</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">Get</a></li>
+              <li class="nav-item active"><a class="nav-link" href="service.html">Services <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="why.html">Why Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
+              <form class="form-inline">
+                <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <!-- services section -->
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Our <span>Services</span></h2>
+          <p>Explore how our healthcare token platform empowers citizens and healthcare providers through a secure and transparent digital system.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/s1.png" alt="Healthcare Wallet Icon">
+              </div>
+              <div class="detail-box">
+                <h5>Currency Wallet</h5>
+                <p>Citizens receive a personal digital wallet where their government-issued Healthcare Stable Coins (HSC) are securely deposited. These tokens can be used for a wide range of medical services including surgeries, checkups, and medications.</p>
+                <a href="wallet.html">View Wallet</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/s2.png" alt="Blockchain Security Icon">
+              </div>
+              <div class="detail-box">
+                <h5>Spend Token</h5>
+                <p>Our blockchain technology ensures that every token transaction is recorded immutably and transparently. Patients and providers can trust that all spending and services are verifiable and tamper-proof.</p>
+                <a href="security.html">Transfer Token</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/s3.png" alt="Support Services Icon">
+              </div>
+              <div class="detail-box">
+                <h5>View Transaction</h5>
+                <p>Our dedicated support team is available around the clock to help citizens with wallet setup, transaction disputes, or registration questions. Providers can also access guidance for onboarding and payment processing.</p>
+                <a href="support.html">View Transactions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="services.html">View All</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end service section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>Contact</h4>
+            <div class="contact_link_box">
+              <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Washington, D.C.</span></a>
+              <a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span>+1 800 123 4567</span></a>
+              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span>support@ushealth.gov</span></a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>About</h4>
+            <p>Our mission is to provide citizens with equitable, secure, and easy access to healthcare services using government-issued digital tokens. Join a new era of medical access and accountability.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>Quick Links</h4>
+            <div class="info_links">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="service.html">Services</a>
+              <a href="why.html">Why Us</a>
+              <a href="team.html">Team</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <h4>Subscribe</h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By US Healthcare
+      </p>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+</body>
+</html>
