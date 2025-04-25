@@ -27,6 +27,39 @@ contract HealthcareStableCoin is ERC20, Ownable {
     _mint(to, amount);
 }
 
+function transferToken(address recipient, uint256 amount, string memory serviceType) public {
+    _transfer(msg.sender, recipient, amount);
+    _recordTransaction(msg.sender, recipient, amount, serviceType);
+}
+
+
+    function getFlatTransactions(address patient) external view returns (
+    address[] memory providers,
+    uint256[] memory amounts,
+    string[] memory serviceTypes,
+    uint256[] memory timestamps
+) {
+    MedicalTransaction[] memory txs = _transactions[patient];
+    uint len = txs.length;
+
+    providers = new address[](len);
+    amounts = new uint256[](len);
+    serviceTypes = new string[](len);
+    timestamps = new uint256[](len);
+
+    for (uint i = 0; i < len; i++) {
+        providers[i] = txs[i].provider;
+        amounts[i] = txs[i].amount;
+        serviceTypes[i] = txs[i].serviceType;
+        timestamps[i] = txs[i].timestamp;
+    }
+
+    return (providers, amounts, serviceTypes, timestamps);
+}
+
+
+
+
 
     function addProvider(address provider) external onlyOwner {
         approvedProviders[provider] = true;
